@@ -1,0 +1,11 @@
+[package]
+name = "tik_tak_toe"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+draw = "0.3.0"
+
+render_tree = { git = "https://github.com/mxilinas/render_tree.git"}
